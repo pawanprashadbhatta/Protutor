@@ -1,0 +1,35 @@
+.Testimonials {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .TestimonialList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .Testimonial {
+    max-width: 400px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .Testimonial h4 {
+    margin-bottom: 5px;
+  }
+  
+  .Testimonial p {
+    color: #888;
+  }
+  
+  .Content {
+    margin-bottom: 15px;
+  }
+  
+  .Author {
+    text-align: right;
+  }
+  

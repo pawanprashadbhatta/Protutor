@@ -1,0 +1,48 @@
+.Footer {
+    background-color: #f1f1f1;
+    padding: 30px 0;
+  }
+  
+  .Container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .Section {
+    flex-basis: 30%;
+    margin-bottom: 30px;
+  }
+  
+  .Section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .Section p {
+    margin-bottom: 8px;
+  }
+  
+  .Section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .Section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .Section ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .BottomBar {
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+  

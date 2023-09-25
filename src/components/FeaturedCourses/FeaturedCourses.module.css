@@ -1,0 +1,52 @@
+.FeaturedCourses {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .CourseList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .Course {
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+  }
+  .Course:hover{
+    cursor: pointer;
+  }
+  
+  .Course img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .Course h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .Course p {
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .EnrollButton {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .EnrollButton:hover {
+    background-color: #ddd;
+  }
+  

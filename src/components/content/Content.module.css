@@ -1,0 +1,44 @@
+.Content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Ramayan {
+    flex-basis: 50%;
+  }
+  
+  .Ramayan h1 {
+    margin: 25px;
+    color: violet;
+    font-size: 34px;
+  }
+  
+  .Ramayan p {
+    margin: 20px;
+    font-weight: 250;
+  }
+  
+  .Image {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .Image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .Ramayan button {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .Ramayan button:hover {
+    background-color: #ddd;
+  }
+  
+  
